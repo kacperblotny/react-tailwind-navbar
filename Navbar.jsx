@@ -33,7 +33,7 @@ function Navbar() {
           {/* Logo */}
           <div>
             <Link to='/'>
-              <h1 className='text-2xl font-bold'>Strona główna</h1>
+              <h1 className='text-2xl font-bold'>Main page</h1>
             </Link>
           </div>
 
@@ -64,28 +64,28 @@ function Navbar() {
           <div className='hidden lg:flex lg:items-center lg:gap-4'>
             <Link to='/'>
               <button className='hover:text-gray-300 transition-colors'>
-                Strona Główna
+                Main page
               </button>
             </Link>
-            <Link to='/piana-pur'>
+            <Link to='/pageone'>
               <button className='hover:text-gray-300 transition-colors'>
-                Piana Pur
+                Page one
               </button>
             </Link>
-            <Link to='/realizacje'>
+            <Link to='/pagetwo'>
               <button className='hover:text-gray-300 transition-colors'>
-                Realizacje
+                Page Two
               </button>
             </Link>
             <button
               onClick={scrollToFooter}
               className='hover:text-gray-300 transition-colors'
             >
-              Kontakt
+              Contact
             </button>
-            <Link to='/wycena'>
+            <Link to='/pagethree'>
               <button className='ml-4 bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition-colors'>
-                Wycena
+                Page three
               </button>
             </Link>
           </div>
@@ -101,28 +101,28 @@ function Navbar() {
         >
           <Link to='/' className='block'>
             <button className='w-full text-left py-2 hover:text-gray-300 transition-colors'>
-              Strona Główna
+              Main page
             </button>
           </Link>
-          <Link to='/piana-pur' className='block'>
+          <Link to='/pageone' className='block'>
             <button className='w-full text-left py-2 hover:text-gray-300 transition-colors'>
-              Piana Pur
+              Page one
             </button>
           </Link>
-          <Link to='/realizacje' className='block'>
+          <Link to='/pagetwo' className='block'>
             <button className='w-full text-left py-2 hover:text-gray-300 transition-colors'>
-              Realizacje
+              Page one
             </button>
           </Link>
           <button
             onClick={scrollToFooter}
             className='w-full text-left py-2 hover:text-gray-300 transition-colors'
           >
-            Kontakt
+            Contact
           </button>
-          <Link to='/wycena' className='block'>
+          <Link to='/pagethree' className='block'>
             <button className='w-full bg-blue-600 px-4 py-2 rounded-md hover:bg-blue-700 transition-colors'>
-              Wycena
+              Page one
             </button>
           </Link>
         </div>
